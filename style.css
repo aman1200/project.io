@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #000;
+}
+
+nav{
+  background: #fff;
+  height: 10vh;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+li{
+  margin: 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.tags{
+  padding-top: 10px;
+  margin-right:25px;
+}
+
+.links{
+  text-decoration: none;
+  color: #fff;
+  background: #2962ff;
+  padding: 5px;
+  border-radius: 9px;
+}
+
+.links:hover{
+  background: #001f75;
+}
+
+.user-icon{
+  font-size: 39px;
+  color: #b0b0b0;
+  margin-right: 50px;
+}
+
+.user-icon:hover{
+  color:#404040;
+}
+
+.user-font{padding-top: 0px;}
+
+/*******************************************************************************************************/
+
+
+/*For Typing Effect*/
+
+section{
+  text-align: center;
+  color:#fff;
+  font-size: 40px;
+  padding-top:6em;
+}
+
+.typewrite{
+  color:#fff;
+}
+
+/*******************************************************************************************************/
+
+
+
+/*For Responsive Design*/
+@media only screen and (max-width: 460px) {
+  li{
+    font-size: 15px;
+  }
+
+  .user-icon{
+    font-size: 30px;
+    margin-right: 0px;
+  }
+
+  .tags{
+    margin-right:5px;
+  }
+  .typewrite{
+    font-size:30px;
+    margin-top: none;
+  }
+  section{padding-top: 50px;}
+
+}
+
+/*******************************************************************************************************/
